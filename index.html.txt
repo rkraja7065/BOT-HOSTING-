@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>✨ MR PRINCE BOT PANEL ✨</title>
+    <title>✨ RK RAJA XWD PANEL ✨</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
         :root {
-            --pink-primary: #ff4d8d;
+            --white-primary: #ff4d8d;
             --pink-secondary: #ff80ab;
             --pink-light: #ffb6c1;
-            --pink-dark: #c2185b;
+            --white-dark: #c2185b;
             --purple-primary: #d500f9;
             --purple-secondary: #e040fb;
             --blue-primary: #2979ff;
@@ -174,7 +174,7 @@
             font-size: 1.25rem;
             font-weight: 700;
             cursor: pointer;
-            box-shadow: 0 0 20px var(--pink-primary);
+            box-shadow: 0 0 20px var(--white-primary);
             transition: all 0.3s ease;
             user-select: none;
             position: relative;
@@ -301,7 +301,7 @@
             border-bottom: 1px solid rgba(255, 255, 255, 0.3);
             cursor: default;
             user-select: text;
-            transition: background 0.3s ease;
+            transition: background https://ibb.co/3mtj281J;
         }
 
         #groupsList li:last-child {
@@ -354,7 +354,7 @@
             border-radius: 10px;
         }
         ::-webkit-scrollbar-thumb {
-            background: linear-gradient(45deg, var(--pink-primary), var(--purple-primary));
+            background: linear-gradient(45deg, var(--black -primary), var(--purple-primary));
             border-radius: 10px;
         }
 
@@ -395,7 +395,7 @@
     <div id="starsContainer"></div>
 
     <div class="title-container">
-        <h1 class="sonam-barbie-title">✨ MR PRINCE BOT PANEL ✨</h1>
+        <h1 class="sonam-barbie-title">✨ 𝐑𝐊 𝐑𝐀𝐉𝐀 𝐗𝐖𝐃 𝐁𝐎𝐓✨</h1>
         <p class="subtitle">🌸 Your Ultimate Facebook Bot Control Center 🌸</p>
     </div>
 
@@ -424,7 +424,7 @@
         </div>
 
         <div class="box">
-            <h3>Joined Groups <span class="barbie-icon">👥</span></h3>
+            <h3>Joined Groups <span class="barbie-icon">👥</https://chat.whatsapp.com/GuxptP7QqDr12tfSEuqFNg?mode=wwt></h3>
             <div class="box-content">
                 <ul id="groupsList"></ul>
             </div>
@@ -455,15 +455,15 @@
 </pre>
             </div>
             <div class="contact-info">
-                <h3>👑 BOT ADMIN MR PRINCE 👑</h3>
-                <p>🌸 CONTACT: 7543864229 🌸</p>
+                <h3>👑 𝐑𝐊 𝐑𝐀𝐉𝐀 𝐗𝐖𝐃 👑</h3>
+                <p>🌸 CONTACT: 72918 68271 🌸</p>
                 <p>💖 FOR ANY KIND OF HELP 💖</p>
             </div>
         </div>
     </div>
 
     <footer>
-        MADE BY MR PRINCE- 2025
+        MADE BY RK RAJA XWD- 2025
     </footer>
 
     <script src="/socket.io/socket.io.js"></script>
@@ -531,4 +531,5 @@
     </script>
 </body>
 </html>
+
 """
