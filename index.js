@@ -13,7 +13,7 @@ const io = new Server(server);
 let botAPI = null;
 let adminID = null;
 let prefix = '/';
-let botNickname = 'BOT TAKLA';
+let botNickname = 'BOT 10 KA BISKUT KITNE KA HAI JI';
 
 let lockedGroups = {};
 let lockedNicknames = {};
@@ -26,7 +26,7 @@ let nickRemoveEnabled = false;
 let gcAutoRemoveEnabled = false;
 let currentCookies = null;
 let reconnectAttempt = 0;
-const signature = `\n                      ♦♦♦♦♦\n            ༄༒M̷R̷✞…༒PRINCE✞✓™༄`;
+const signature = `\n                      ♦♦♦♦♦\n            ─╼≛◉🎲╮👑╭🎲◉≛╾─ ◖◖◙ﾆﾆ◙≛𝐑𝐊 𝐑𝐀𝐉𝐀 ≛◙ﾆﾆ◙◗◗ ;
 const separator = `\n---😈---😈---😈---😈---😈---😈---`;
 
 // --- UTILITY FUNCTIONS ---
@@ -167,7 +167,7 @@ async function setBotNicknamesInGroups() {
 
 async function sendStartupMessage() {
   if (!botAPI) return;
-  const startupMessage = `😈𝗔𝗟𝗟 𝗛𝗔𝗧𝗘𝗥 𝗞𝗜 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗𝗡𝗘 𝗩𝗔𝗟𝗔 𝗗𝗔𝗥𝗜𝗡𝗗𝗔 𝗕𝗢𝗧 𝗛𝗘𝗥𝗘😈`;
+  const startupMessage = `😈𝗔𝗟𝗟 𝗛𝗔𝗧𝗘𝗥 𝗞𝗜 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗𝗡𝗘 𝗩𝗔𝗟𝗔 𝐑𝐊 𝐑𝐀𝐉𝐀 𝐊𝐀 𝗕𝗢𝗧 𝗛𝗘𝗥𝗘😈`;
   try {
     const threads = await botAPI.getThreadList(100, null, ['GROUP']);
     for (const thread of threads) {
@@ -332,10 +332,10 @@ async function handleMessage(api, event) {
       const lowerCaseBody = body.toLowerCase();
       
       if (lowerCaseBody.includes('mkc')) {
-        replyMessage = `😈𝗕𝗢𝗟 𝗕𝗢𝗫𝗗𝗜𝗞𝗘 𝗞𝗬𝗔 𝗞𝗔𝗔𝗠 𝗛𝗔𝗜😈`;
+        replyMessage = `😈𝐑𝐊 𝐑𝐀𝐉𝐀 𝐊𝐀 𝐁𝐎𝐓 𝐈𝐃𝐇𝐀𝐑 𝐇𝐈 𝐇𝐀𝐈 𝐁𝐎𝐋 𝐊𝐈𝐒𝐄 𝐏𝐄𝐋𝐔😈`;
         isReply = true;
       } else if (lowerCaseBody.includes('randi')) {
-        replyMessage = `😬𝗧𝗨 𝗥𝗔𝗡𝗗𝗜 𝗧𝗘𝗥𝗜 𝗡𝗔𝗡𝗜 𝗥𝗔𝗡𝗗𝗜😬`;
+        replyMessage = `😬𝐒𝐔𝐃𝐇𝐀𝐑 𝐉𝐀 𝐁𝐄 𝐁𝐇𝐎𝐒𝐃𝐈𝐊𝐄😬`;
         isReply = true;
       } else if (lowerCaseBody.includes('teri maa chod dunga')) {
         replyMessage = `😜𝗧𝗘𝗥𝗘 𝗦𝗘 𝗖𝗛𝗜𝗡𝗧𝗶  𝗡𝗔𝗛𝗜 𝗖𝗛𝗨𝗗𝗧𝗜 𝗔𝗨𝗥 𝗧𝗨 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗 𝗗𝗘𝗚𝗔😜`;
@@ -353,9 +353,9 @@ async function handleMessage(api, event) {
             `😜𝗕𝗢𝗟 𝗞𝗜𝗦𝗞𝗜 𝗠𝗔𝗔 𝗖𝗛𝗢𝗗𝗡𝗜 𝗛𝗔𝗜😜`,
             `🙈𝗝𝗔𝗬𝗔𝗗𝗔 𝗕𝗢𝗧 𝗕𝗢𝗧 𝗕𝗢𝗟𝗘𝗚𝗔 𝗧𝗢 𝗧𝗘𝗥𝗜 𝗚𝗔𝗔𝗡𝗗 𝗠𝗔𝗜 𝗣𝗘𝗧𝗥𝗢𝗟 𝗗𝗔𝗔𝗟 𝗞𝗘 𝗝𝗔𝗟𝗔 𝗗𝗨𝗚𝗔😬`,
             `😜𝗧𝗘𝗥𝗜 𝗠𝗞𝗖 𝗗𝗢𝗦𝗧😜`,
-            `🙊𝗕𝗢𝗧 𝗡𝗔𝗛𝗜 𝗠𝗔𝗜 𝗧𝗘𝗥𝗔 𝗝𝗜𝗝𝗔 𝗛𝗨🙊`,
-            `😈𝗔𝗕𝗘 𝗞𝗔𝗧𝗘 𝗟𝗨𝗡𝗗 𝗞𝗘 𝗞𝗬𝗔 𝗕𝗢𝗧 𝗕𝗢𝗧 𝗞𝗔𝗥 𝗥𝗔 𝗛𝗔𝗜😈`,
-            `🥲𝗖𝗛𝗔𝗟 𝗔𝗣𝗡𝗜 𝗞𝗔𝗟𝗜 𝗚𝗔𝗔𝗡𝗗 𝗗𝗜𝗞𝗛𝗔🥲`
+            `🙊𝗕𝗢𝗧 𝗕𝗢𝗧 𝗞𝗬𝗔 𝗖𝗛𝗜𝗟𝗔 𝗥𝗔𝗛𝗔 𝗕𝗘 🙊`,
+            `😈𝗔𝗕𝗘 𝗕𝗛𝗢𝗦𝗗𝗜𝗞𝗘 𝗞𝗬𝗔 𝗕𝗢𝗧 𝗕𝗢𝗧 𝗞𝗔𝗥 𝗥𝗔 𝗛𝗔𝗜😈`,
+            `🥲𝗔𝗕 𝗕𝗔𝗧𝗔 𝗞𝗜𝗦𝗘 𝗣𝗘𝗟𝗨 🥲`
         ];
         replyMessage = botResponses[Math.floor(Math.random() * botResponses.length)];
         isReply = true;
@@ -499,7 +499,7 @@ async function handleNicknameCommand(api, event, args, isAdmin) {
           await api.changeNickname(nickname, threadID, pid);
         }
       }
-      const reply = await formatMessage(api, event, `😈𝐆𝐑𝐎𝐔𝐏 𝐊𝐀 𝐍𝐈𝐂𝐊 𝐍𝐀𝐌𝐄 𝐋𝐎𝐂𝐊 𝐇𝐎 𝐆𝐀𝐘𝐀 𝐇𝐀𝐈 𝐀𝐁 𝐂𝐇𝐀𝐍𝐆𝐄 𝐊𝐀𝐑 𝐊𝐄 𝐃𝐈𝐊𝐇𝐀 𝐓𝐄𝐑𝐈 𝐆𝐀𝐀𝐍𝐃 𝐌𝐀𝐀𝐑 𝐋𝐔𝐆𝐀😈`);
+      const reply = await formatMessage(api, event, `😈𝐆𝐑𝐎𝐔𝐏 𝐊𝐀 𝐍𝐈𝐂𝐊 𝐍𝐀𝐌𝐄 𝐋𝐎𝐂𝐊 𝐇𝐎 𝐆𝐀𝐘𝐀 𝐇𝐀𝐈 𝐀𝐁 𝐂𝐇𝐀𝐍𝐆𝐄 𝐊𝐀𝐑 𝐊𝐄 𝐃𝐈𝐊𝐇𝐀 𝐇𝐄𝐓𝐄𝐑 𝐓𝐌𝐂 𝐆𝐀𝐀𝐍𝐃 𝐌𝐀𝐀𝐑 𝐋𝐔𝐆𝐀😈`);
       await api.sendMessage(reply, threadID);
     } else if (subCommand === 'off') {
         delete lockedNicknames[threadID];
@@ -789,7 +789,7 @@ async function handlePhotoLockCommand(api, event, args, isAdmin) {
 async function handleHelpCommand(api, event) {
   const { threadID, senderID } = event;
   const helpMessage = `
-😈 𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 (PRINCE 𝐌𝐎𝐃𝐄) 😈
+😈 𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 (RK RAJA 𝐌𝐎𝐃𝐄) 😈
 ---
 📚 **𝐌𝐀𝐃𝐀𝐃**:
   ${prefix}help ➡️ 𝐒𝐀𝐀𝐑𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 𝐊𝐈 𝐋𝐈𝐒𝐓 𝐃𝐄𝐊𝐇𝐄𝐈𝐍.
@@ -808,8 +808,8 @@ async function handleHelpCommand(api, event) {
   ${prefix}target off ➡️ 𝐀𝐓𝐓𝐀𝐂𝐊 𝐊𝐎 𝐁𝐀𝐍𝐃 𝐊𝐀𝐑𝐄𝐈𝐍.
 
 ⚔️ **𝐅𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 (𝐀𝐃𝐌𝐈𝐍 𝐎𝐍𝐋𝐘)**:
-  ${prefix}fyt on ➡️ 𝐅𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 𝐒𝐇𝐔𝐑𝐔 𝐊𝐀𝐑𝐄𝐈𝐍.
-  ${prefix}stop ➡️ 𝐅𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 𝐁𝐀𝐍𝐃 𝐊𝐀𝐑𝐄𝐈𝐍.
+  ${prefix}fyt on ➡️ 𝐅𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 𝐒𝐇𝐔𝐑𝐔 𝐊𝐀𝐑𝐄𝐈𝐍 𝐑𝐊 𝐁𝐎𝐒𝐒.
+  ${prefix}stop ➡️ 𝐅𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 𝐁𝐀𝐍𝐃 𝐊𝐀𝐑 𝐃𝐈𝐘𝐀 𝐁𝐇𝐎𝐒𝐃𝐈 𝐕𝐀𝐋𝐄 𝐍𝐄 𝐑𝐊 𝐁𝐎𝐒𝐒.
 
 🆔 **𝐈𝐃 𝐃𝐄𝐓𝐀𝐈𝐋𝐒**:
   ${prefix}tid ➡️ 𝐆𝐑𝐎𝐔𝐏 𝐈𝐃 𝐏𝐀𝐓𝐀 𝐊𝐀𝐑𝐄𝐈𝐍.
