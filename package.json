@@ -1,7 +1,7 @@
 {
-  "name": "devil-bot",
+  "name": "RK.RAJA.KA-bot",
   "version": "1.0.0",
-  "description": "Facebook Messenger Devil Bot using ws3-fca and Express",
+  "description": "Facebook Messenger RK RAJA XWD Bot using ws3-fca and Express",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -17,6 +17,6 @@
   "devDependencies": {
     "nodemon": "^3.1.0"
   },
-  "author": "Prince",
+  "author": "RK RAJA",
   "license": "MIT"
 }  
