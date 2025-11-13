@@ -1,5 +1,5 @@
 {
-  "name": "RK.RAJA.KA-bot",
+  "name": "Alone-bot",
   "version": "1.0.0",
   "description": "Facebook Messenger RK RAJA XWD Bot using ws3-fca and Express",
   "main": "index.js",
@@ -17,6 +17,6 @@
   "devDependencies": {
     "nodemon": "^3.1.0"
   },
-  "author": "RK RAJA",
+  "author": "Alone",
   "license": "MIT"
 }  
