@@ -26,7 +26,7 @@ let nickRemoveEnabled = false;
 let gcAutoRemoveEnabled = false;
 let currentCookies = null;
 let reconnectAttempt = 0;
-const signature = `\n                      ♦♦♦♦♦\n            ─╼≛◉🎲╮👑╭🎲◉≛╾─ ◖◖◙ﾆﾆ◙≛𝐑𝐊 𝐑𝐀𝐉𝐀 ≛◙ﾆﾆ◙◗◗ ;
+const signature = `\n                       ─╼≛◉🎲╮👑╭🎲◉≛╾─ ◖◖◙ﾆﾆ◙≛𝐑 ALONE ≛◙ﾆﾆ◙◗◗ ;
 const separator = `\n---😈---😈---😈---😈---😈---😈---`;
 
 // --- UTILITY FUNCTIONS ---
@@ -332,7 +332,7 @@ async function handleMessage(api, event) {
       const lowerCaseBody = body.toLowerCase();
       
       if (lowerCaseBody.includes('mkc')) {
-        replyMessage = `😈𝐑𝐊 𝐑𝐀𝐉𝐀 𝐊𝐀 𝐁𝐎𝐓 𝐈𝐃𝐇𝐀𝐑 𝐇𝐈 𝐇𝐀𝐈 𝐁𝐎𝐋 𝐊𝐈𝐒𝐄 𝐏𝐄𝐋𝐔😈`;
+        replyMessage = `😈𝐀𝐋𝐎𝐍𝐄 𝐊𝐀 𝐁𝐎𝐓 𝐈𝐃𝐇𝐀𝐑 𝐇𝐈 𝐇𝐀𝐈 𝐁𝐎𝐋 𝐊𝐈𝐒𝐄 𝐏𝐄𝐋𝐔😈`;
         isReply = true;
       } else if (lowerCaseBody.includes('randi')) {
         replyMessage = `😬𝐒𝐔𝐃𝐇𝐀𝐑 𝐉𝐀 𝐁𝐄 𝐁𝐇𝐎𝐒𝐃𝐈𝐊𝐄😬`;
@@ -808,8 +808,8 @@ async function handleHelpCommand(api, event) {
   ${prefix}target off ➡️ 𝐀𝐓𝐓𝐀𝐂𝐊 𝐊𝐎 𝐁𝐀𝐍𝐃 𝐊𝐀𝐑𝐄𝐈𝐍.
 
 ⚔️ **𝐅𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 (𝐀𝐃𝐌𝐈𝐍 𝐎𝐍𝐋𝐘)**:
-  ${prefix}fyt on ➡️ 𝐅𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 𝐒𝐇𝐔𝐑𝐔 𝐊𝐀𝐑𝐄𝐈𝐍 𝐑𝐊 𝐁𝐎𝐒𝐒.
-  ${prefix}stop ➡️ 𝐅𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 𝐁𝐀𝐍𝐃 𝐊𝐀𝐑 𝐃𝐈𝐘𝐀 𝐁𝐇𝐎𝐒𝐃𝐈 𝐕𝐀𝐋𝐄 𝐍𝐄 𝐑𝐊 𝐁𝐎𝐒𝐒.
+  ${prefix}fyt on ➡️ 𝐅𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 𝐒𝐇𝐔𝐑𝐔 𝐊𝐀𝐑𝐄𝐈𝐍 𝐀𝐋𝐎𝐍𝐄 𝐁𝐎𝐒𝐒.
+  ${prefix}stop ➡️ 𝐅𝐈𝐆𝐇𝐓 𝐌𝐎𝐃𝐄 𝐁𝐀𝐍𝐃 𝐊𝐀𝐑 𝐃𝐈𝐘𝐀 𝐁𝐇𝐎𝐒𝐃𝐈 𝐕𝐀𝐋𝐄 𝐍𝐄 𝐀𝐋𝐎𝐍𝐄 𝐁𝐎𝐒𝐒.
 
 🆔 **𝐈𝐃 𝐃𝐄𝐓𝐀𝐈𝐋𝐒**:
   ${prefix}tid ➡️ 𝐆𝐑𝐎𝐔𝐏 𝐈𝐃 𝐏𝐀𝐓𝐀 𝐊𝐀𝐑𝐄𝐈𝐍.
