@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>✨ ALONE XWD PANEL ✨</title>
+    <title>✨ RK RAJA XWD PANEL ✨</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
@@ -395,7 +395,7 @@
     <div id="starsContainer"></div>
 
     <div class="title-container">
-        <h1 class="sonam-barbie-title">✨ ALONE BOT ✨</h1>
+        <h1 class="sonam-barbie-title">✨ RK RAJA BOT ✨</h1>
         <p class="subtitle">🌸 Your Ultimate Facebook Bot Control Center 🌸</p>
     </div>
 
@@ -455,7 +455,7 @@
 </pre>
             </div>
             <div class="contact-info">
-                <h3>👑 Alone bot 👑</h3>
+                <h3>👑 RK RAJA bot 👑</h3>
                 <p>🌸 CONTACT: 72918 68271 🌸</p>
                 <p>💖 FOR ANY KIND OF HELP 💖</p>
             </div>
