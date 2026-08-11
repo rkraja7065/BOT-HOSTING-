@@ -7,9 +7,13 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "body-parser": "^1.20.3",
+    "socket.io": "^4.8.1",
+    "ws3-fca": "^1.0.0"
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "license": "MIT"
 }
